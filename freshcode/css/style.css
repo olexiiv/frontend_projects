@@ -143,22 +143,26 @@ main {
     margin-top: 30px;
     position: relative;
 }
-.article-card{
+
+.article-card {
     margin-left: 40px;
     padding-top: 40px;
     padding-bottom: 20px;
     /* border: 1px solid #abc; */
 }
-.article-title{
+
+.article-title {
     font-size: 46px;
     line-height: 43.65px;
     text-transform: uppercase;
 }
-.article-text{
+
+.article-text {
     line-height: 19.38px;
     margin-top: 10px;
 }
-.article-list{
+
+.article-list {
     font-size: 16px;
     line-height: 15.5px;
     margin-top: 45px;
@@ -167,16 +171,90 @@ main {
     flex-direction: column;
     justify-content: space-between; */
 }
-.article-list li{
+
+.article-list li {
     margin-bottom: 50px;
 }
-span{
+
+span {
     display: block;
     color: #3D8C9D;
     margin-top: 10px;
 }
-.article-image{
+
+.article-image {
     position: absolute;
     top: 90px;
     right: 40px;
+}
+
+.button {
+    width: 262px;
+    height: 59px;
+    margin: 60px auto 0px;
+    padding: 21px 35px;
+    background-color: #7AE5FD;
+    border-radius: 87px;
+    font-size: 18px;
+    line-height: 17.44px;
+    text-transform: uppercase;
+}
+
+.present {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1285px;
+    height: 738px;
+    margin: 47px auto 0px;
+    background-image: url(../image/fon5.png);
+    position: relative;
+}
+
+.present-text {
+    width: 1239px;
+    height: 277px;
+    background-color: #F2FEFF;
+    display: flex;
+    align-items: center;
+}
+
+.present-text p {
+    width: 391px;
+    padding-left: 40px;
+    font-size: 27.27px;
+    line-height: 32.73px;
+}
+.present-image{
+    position: absolute;
+    right: 140px;
+}
+.donate{
+    width: 739px;
+    margin: 68px auto 0px;
+}
+.donate-title{
+    font-size: 60px;
+    line-height: 56.94px;
+    text-align: center;
+}
+.donate-subtitle{
+    margin-top: 20px;
+    color: #73A6B1;
+    text-align: center;
+}
+.donate-text{
+    margin-top: 77px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 26.16px;
+}
+.donate-count{
+    font-size: 60px;
+    line-height: 56.94px;
+    text-align: center;
+    margin-top: 23px;
+}
+.button-donate{
+    width: 276px;
 }
