@@ -36,7 +36,6 @@ body {
     justify-content: space-around;
     align-items: center;
     background: rgba(0, 0, 0, 0.05);
-    /* border: 1px solid black; */
     z-index: 3;
 }
 
@@ -53,7 +52,6 @@ body {
 }
 
 .main-menu li {
-    /* border: 1px solid black; */
     margin-left: 5%;
     padding: 1.3rem 1.625rem;
     border-radius: 2rem;
@@ -143,7 +141,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid #000; */
     background-color: #F1FDFF;
     position: relative;
     margin-top: 3%;
@@ -169,23 +166,28 @@ body {
     line-height: 1.2rem;
     margin-top: 1%;
 }
-.article-list{
+
+.article-list {
     line-height: 0.97rem;
 }
-.article-list li{
+
+.article-list li {
     margin-top: 8%;
 }
+
 span {
     display: block;
     color: #3D8C9D;
     margin-top: 2%;
 }
-.article-image{
+
+.article-image {
     flex: 1;
     /* width: 90%; */
     margin: 5% 0;
 }
-.button{
+
+.button {
     margin-top: 4%;
     padding: 1.3rem 1.625rem;
     border-radius: 2rem;
@@ -194,9 +196,79 @@ span {
     line-height: 1.1rem;
     text-transform: uppercase;
 }
-.button:hover{
+
+.button:hover {
     font-weight: 800;
 }
+
 .present {
-    
+    margin-top: 3%;
+    position: relative;
+}
+
+.present-image1 {
+    position: relative;
+}
+
+.present-text {
+    width: 100%;
+    background-color: #F2FEFF;
+    position: absolute;
+    top: 35%;
+}
+
+.present-text p {
+    width: 32%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 5% 0 5% 4%;
+}
+
+.present-image2 {
+    position: absolute;
+    right: 12%;
+    top: 25%;
+}
+
+.donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47%;
+    margin-top: 3%;
+}
+
+.donate-title {
+    font-size: 3.75rem;
+    line-height: 3.56rem;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.donate-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #73A6B1;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.donate-text {
+    font-size: 1.69rem;
+    line-height: 1.6rem;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.donate-count {
+    font-size: 3.75rem;
+    line-height: 3.56rem;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.button-donate {
+    width: 37%;
+    text-align: center;
 }
