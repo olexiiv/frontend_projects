@@ -1,0 +1,203 @@
+@media (max-width:768px) {
+    body {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .wrapper {
+        max-width: 768px;
+    }
+
+    .container {
+        max-width: 688px;
+        padding: 0;
+    }
+
+    .header {
+        height: 122px;
+        padding: 24px 0 50px;
+    }
+
+    .header__btn,
+    .footer__btn {
+        width: 140px;
+        height: 48px;
+    }
+
+    .info__left {
+        padding: 98px 0px 186px 0;
+        max-width: 398px;
+    }
+
+    .left__title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        /* max-width: 326px; */
+    }
+
+    .left__text {
+        max-width: 398px;
+        margin-bottom: 24px;
+    }
+
+    .left__btn {
+        height: 56px;
+    }
+
+    .right__inner {
+        width: 216.54px;
+        height: 382.53px;
+        padding-left: 31px;
+    }
+
+    .right__line {
+        /* height: 504.3px; */
+        width: 298px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom 0 left 0;
+    }
+
+    .right__girl {
+        width: 216.54px;
+        height: 382.53px;
+        background-size: contain;
+    }
+
+    .right__cards {
+        padding: 16px 20px 16px;
+        height: 100px;
+    }
+
+    .card__left {
+        width: 155px;
+        bottom: -37.7px;
+        left: -45.3px;
+    }
+
+    .cards__title {
+        font-style: 14px;
+        line-height: 28px;
+        /* margin-bottom: 2px; */
+    }
+
+    .cards_quant {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .card__right {
+        width: 105px;
+        right: -51.15px;
+        top: -13.7px;
+    }
+
+    .courses {
+        padding-bottom: 30px;
+    }
+
+    .corses__card {
+        width: 339px;
+        height: 259px;
+        margin-bottom: 56px;
+        padding: 56px 22px 32px 32px;
+    }
+
+    .first-card-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card___inner {
+        min-height: 171px;
+    }
+
+    .card__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .card__text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+
+    .card__btn {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer {
+        padding: 36px 0;
+    }
+}
+
+@media (max-width:375px) {
+    .wrapper {
+        max-width: 375px;
+    }
+
+    .container {
+        max-width: 343px;
+        padding: 0;
+    }
+
+    .header {
+        height: 102px;
+        padding: 16px 0 38px;
+    }
+
+    .info__inner {
+        display: block;
+    }
+
+    .info__left {
+        padding: 0px 16px 70px;
+        max-width: 343px;
+    }
+
+    .left__title {
+        margin-bottom: 26px;
+    }
+
+    .left__text {
+        max-width: 343px;
+    }
+
+    .right__inner {
+        margin: 0 auto 90px;
+        width: 253px;
+        height: 253px;
+    }
+
+    .right__line {
+        display: none;
+    }
+
+    .right__girl {
+        width: 253px;
+        height: 253px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: 220px, 253px;
+        background-position: top -36.6px left 24px, top 0 left 0;
+    }
+
+    .courses {
+        padding-bottom: 40px;
+    }
+
+    .corses__card {
+        width: 343px;
+        margin-bottom: 40px;
+        padding: 56px 28px 32px;
+    }
+
+    .first-card {
+        width: 343px;
+        height: 120px;
+        padding: 24px 38px 32px;
+    }
+}

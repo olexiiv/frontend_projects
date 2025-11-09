@@ -1,0 +1,26 @@
+body{
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(9, 49, 102);
+}
+img{
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(9, 49, 102);
+}
+p{
+    font-size: 22px;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+input[type="submit"]{
+    background-color: rgb(9, 49, 102);
+    color: #fff;
+}

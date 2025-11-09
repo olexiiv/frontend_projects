@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:500,900);
+
+html body {
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #87879D;
+    background: #fafafa;
+}
+
+h1,
+h2 {
+    margin: 0;
+    color: #28283D;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    /* overflow: hidden; */
+    /* Контет обрізається, без надання прокрутки.*/
+    /* padding: 0 20px; */
+}
+
+.header {
+    text-align: center;
+    height: 170px;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.wrapper {
+    padding: 80px 0 62px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.info {
+    height: 358px;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__left {
+    width: 362px;
+    height: 358px;
+    background: url(../image/img-left.png);
+    background-repeat: no-repeat;
+}
+
+.info__main {
+    max-width: 540px;
+    text-align: center;
+    padding-top: 47px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 34px;
+}
+
+.info__main-text {
+    margin-bottom: 32px;
+}
+
+.info__main-battons a {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 29px;
+    margin: 0 8px;
+}
+
+.btn-left {
+    background: #4D96A9;
+    padding: 16px 40px;
+}
+
+.btn-left span {
+    margin-left: 4px;
+    color: #8FE3F9;
+}
+
+.btn-right {
+    background: #855FB1;
+    padding: 16px 29px;
+
+}
+
+.info__right {
+    width: 362px;
+    height: 358px;
+    background: url(../image/img-right.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.graph-01 {}
+
+.graph-01 .container {
+    position: relative;
+    height: 221px;
+}
+
+.line {
+    border-left: 1px solid #87879D;
+    height: 84px;
+    opacity: 0.25;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 109px;
+}
+
+.circle {
+    width: 56px;
+    height: 56px;
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 100%;
+}
+
+.gallery {
+    height: 374px;
+}
+
+.gallery .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.describe {
+    height: 280px;
+    padding-top: 40px;
+}
+
+.describe__content {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.describe__content h2 {
+    max-width: 445px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 32px;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+    margin-bottom: 16px;
+}
+
+.descride__text {
+    line-height: 26px;
+}
+
+.graph-02 .container {
+    position: relative;
+    height: 184px;
+}
+
+.graph-02 .line {
+    top: 72px;
+}
+
+.footer .container {
+    background: #4D96A9;
+    background-image: url(../image/footer.png);
+    background-size: cover;
+    height: 308px;
+}
+
+.footer .wrapper {
+    padding: 0;
+    height: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h2 {
+    width: 350px;
+    height: 88px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FAFAFA;
+}
+
+.footer__text {
+    width: 350px;
+    height: 78px;
+    color: #FAFAFA;
+}
+
+.footer__btn {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 16px 40px;
+    background: #855FB1;
+    border-radius: 29px;
+}
+
+.footer__btn span {
+    color: #D9B8FF;
+}
