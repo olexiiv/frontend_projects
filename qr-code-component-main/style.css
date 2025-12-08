@@ -1,9 +1,80 @@
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
-
-.outfit-<uniquifier > {
+* {
+  box-sizing: border-box;
+}
+body,
+h3,
+p {
+  margin: 0;
+}
+.outfit-bold {
   font-family: 'Outfit', sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  line-height: 120%;
+  /* border: 1px solid #000000; */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.outfit-regular {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  line-height: 140%;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article {
+    background-color: #fff;
+    width: 320px;
+    border-radius: 20px;
+    padding: 16px 16px 40px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 24px;
+    }
+  }
+}
+div {
+  text-align: center;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+  h3 {
+    margin-bottom: 12px;
+  }
+}
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 16px 40px;
+gap: 24px;
+
+width: 320px;
+height: 499px;
+
+background: #ffffff;
+/* card-shadow */
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
